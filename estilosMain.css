@@ -1,0 +1,42 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navBarLeft {
+    justify-self: flex-start;
+    padding: 0.5rem;
+}
+
+.navBarLeft:hover {
+    background-color: lightgray;
+}
+
+.tarjetasMainMenu {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 0.25rem; 
+    margin-top: 1rem;
+}
+
+.tarjetaMainMenu {
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1); 
+    margin: 0.5rem;
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigIcon {
+    font-size: 300%;
+}
+
+.tarjetaMainMenu:hover {
+    filter: brightness(0.9);
+    transform: scale(1.02);
+}
+
+.mainContent {
+    margin: 0 5%;
+}
