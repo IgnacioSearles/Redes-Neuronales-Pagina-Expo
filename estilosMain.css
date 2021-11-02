@@ -1,6 +1,9 @@
 .navBar {
     display: flex;
     flex-direction: row;
+    margin-bottom: 4rem;
+    position: sticky;
+    z-index: 1;
 }
 
 .navBarLeft {
@@ -16,7 +19,6 @@
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
     grid-gap: 0.25rem; 
-    margin-top: 1rem;
 }
 
 .tarjetaMainMenu {
@@ -38,9 +40,9 @@
 }
 
 .mainContent {
-    margin: 0 5%;
+    margin: 0 4%;
 }
 
 .mainContent > p {
-    margin-top: 1.3rem;
+    margin: 1.3rem 0;
 }
