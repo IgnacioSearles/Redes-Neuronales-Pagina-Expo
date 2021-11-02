@@ -40,3 +40,7 @@
 .mainContent {
     margin: 0 5%;
 }
+
+.mainContent > p {
+    margin-top: 1.3rem;
+}
